@@ -4,3 +4,4 @@
     "project_slug": ["{% if cookiecutter.is_existing_project %}{{ cookiecutter.project_name + 'temp' }}{% else %}{{ cookiecutter.project_name }}{% endif %}"]
 
 }
+
