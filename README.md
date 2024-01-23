@@ -5,7 +5,7 @@ This template can be used to create a new project or implement mkdocs documentat
 The template can be used by running the following command
 
 ```shell
-$ cookiecutter https://github.com/BartvanWoesik/Mkdocs_cookiecutter.git
+cookiecutter https://github.com/BartvanWoesik/Mkdocs_cookiecutter.git
 ```
 
 The following information will be asked:
