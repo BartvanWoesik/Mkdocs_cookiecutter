@@ -1,0 +1,10 @@
+site_name: {{cookiecutter.project_name}}
+nav:
+  - Home: index.md
+  - API: API.md
+theme: readthedocs
+plugins:
+  - search
+  - swagger-ui-tag
+  - mkdocstrings:
+      default_handler: python

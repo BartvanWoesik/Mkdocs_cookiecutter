@@ -1,0 +1,3 @@
+mkdocs
+mkdocstrings-python
+pip install mkdocs-swagger-ui-tag

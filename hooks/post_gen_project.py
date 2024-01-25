@@ -15,17 +15,17 @@ def move_files_to_parent_folder(folder_path: str) -> None:
         print(f"{folder_path} is not a valid directory.")
         return
 
-    # Get a list of all files in the folder
-    files = [f for f in os.listdir(folder_path)]
+    
 
     # Move each file to the parent folder
-    for file_name in files:
+    for file_name in os.listdir(folder_path):
         source_path = os.path.join(folder_path, file_name)
         destination_path = os.path.join(os.path.dirname(folder_path), file_name)
         shutil.move(source_path, destination_path)
     
     # Remove folder
-    # os.remove(folder_path)
+    os.rmdir(folder_path)
+
 
 # Get right folder from cookiecutter
 folder_to_move = '../' + '{{cookiecutter.project_slug}}'
