@@ -2,7 +2,7 @@
 
 This template can be used to create a new project or implement mkdocs documentation in existing projects.
 
-The template can be used by running the following command
+The template can be used by running the following command:
 
 ```shell
 cookiecutter https://github.com/BartvanWoesik/Mkdocs_cookiecutter.git
